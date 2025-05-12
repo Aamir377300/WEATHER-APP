@@ -5,50 +5,56 @@
 
 ![Home Screen](./screenshot/image.png)
 
-
-A responsive weather web app that provides real-time updates on weather, air quality, and moon phases based on your current location.
-
+A responsive and interactive Weather App built using HTML, CSS, and JavaScript that displays current weather, air quality, moon phase, hourly and weekly forecasts, and integrates a dynamic map using Leaflet.
 ---
+🚀 Features
+🔍 City Search: Enter any city name to get the current weather.
 
-## 🔍 Features
+📍 Current Location: Automatically fetch weather using your geolocation.
 
-- **Auto Location Detection**
-  - Automatically fetches your location using the browser's geolocation API.
+🌡️ Current Weather: Displays temperature, weather condition, humidity, and icon.
 
-- **Current Weather Information**
-  - Temperature
-  - Weather condition
-  - Humidity
-  - Air Quality Index (AQI)
+🌬️ Air Quality Index (AQI): Indicates the air quality (1-5 scale) and provides a health description.
 
-- **Moon Phase Display**
-  - Shows the current moon phase (e.g., Waxing Gibbous, Full Moon, etc.).
+🌕 Moon Phase: Calculates and shows the current moon phase.
 
-- **Hourly Weather Forecast**
-  - Displays upcoming temperatures for various times of the day.
+🕒 Hourly Forecast: Shows temperature and condition for the next 8 hours.
 
-- **7-Day Weekly Forecast**
-  - Displays expected temperatures for the upcoming week.
+📅 Weekly Forecast: Averages daily temperature and shows conditions for 7 days.
 
-- **Interactive Map**
-  - Integrated map view to explore different areas using Leaflet.js.
+🗺️ Map Integration: Dynamic map with marker using Leaflet and OpenStreetMap.
 
----
+🧑‍💻 Tech Stack
+Frontend: HTML, CSS, JavaScript
 
-## 🛠️ Technologies Used
+API: OpenWeatherMap API
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- OpenWeatherMap API  
-- Leaflet.js  
-- Geolocation API  
+Map: Leaflet.js
 
----
+🔧 Setup Instructions
+Clone the repository
 
-## 🚀 How to Run
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+Install dependencies
+(No backend dependencies required — pure frontend app)
 
-```bash
-git clone https://github.com/Aamir377300/WEATHER-APP.git
-cd WEATHER-APP
-open index.html
+Set up your API key
+Replace the placeholder in script.js with your OpenWeatherMap API key:
+
+javascript
+Copy
+Edit
+const API_KEY = 'YOUR_API_KEY_HERE';
+Add Weather Icons
+Make sure the following icon files exist under a folder named icons/:
+
+
+📁 Project Structure
+
+weather-app/
+├── index.html
+├── style.css
+├── script.js
+├── icons/
+│   └── *.png
