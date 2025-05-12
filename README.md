@@ -3,7 +3,7 @@
 
 # 🌤️ Weather App
 
-![Home Screen](./screenshots/image.png)
+![Home Screen](./screenshot/image.png)
 
 
 A responsive weather web app that provides real-time updates on weather, air quality, and moon phases based on your current location.
