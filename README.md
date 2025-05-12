@@ -49,4 +49,4 @@
 
 ---
 
-❤️‍🔥 Live Website Links:-> [Check out the live app here!](https://weather-app-seven-navy-94.vercel.app/)
+❤️‍🔥 Live Website Links: [Check out the live app here!](https://weather-app-seven-navy-94.vercel.app/)
