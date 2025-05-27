@@ -1,3 +1,8 @@
+This is a group project that I contributed to as part of a collaborative team.  
+The original repository was forked to facilitate joint development and code sharing among team members.
+
+Working together, we enhanced the project’s features and functionality, leveraging each other’s strengths and insights for a richer final product.
+
 # 🌤️ Weather App
 
 ![Home Screen](./screenshot/image.png)
